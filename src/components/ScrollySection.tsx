@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ReactNode } from "react";
 
 interface ScrollySectionProps {
@@ -18,7 +18,7 @@ export default function ScrollySection({ children, index, isDark }: ScrollySecti
   const oldColorClass = isDark ? "bg-[#FBFBF2]" : "bg-[#100007]";
 
   // Variantes para la animación del contenido
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: { opacity: 0, scale: 1.05 },
     visible: {
       opacity: 1,

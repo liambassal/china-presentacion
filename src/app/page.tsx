@@ -2,7 +2,7 @@
 
 import ScrollySection from "@/components/ScrollySection";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 
 export default function Home() {
   const sections = [
@@ -117,7 +117,7 @@ export default function Home() {
   ];
 
   // Variantes para los hijos (los elementos que aparecen poco a poco)
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 40 },
     visible: { 
       opacity: 1, 
