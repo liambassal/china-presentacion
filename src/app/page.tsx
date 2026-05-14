@@ -13,7 +13,7 @@ export default function Home() {
         "Cambio de paradigma productivo: Inversión masiva estatal y privada en investigación y desarrollo (I+D).",
         "La innovación tecnológica no es solo negocio, sino el pilar central para el crecimiento y la supervivencia nacional a largo plazo."
       ],
-      image: "/images/img_sec_1.png"
+      image: "/china-presentacion/images/img_sec_1.png"
     },
     {
       title: "2. Guerra de Chips y el Cuello de Botella (Hardware)",
@@ -23,7 +23,7 @@ export default function Home() {
         "El rol de los gigantes globales: La dependencia tecnológica de empresas como TSMC (Taiwán) y ASML (Países Bajos).",
         "El cuello de botella: Dificultad china actual para manufacturar chips de última generación (por debajo de los 7nm) de forma masiva."
       ],
-      image: "/images/img_sec_2.png"
+      image: "/china-presentacion/images/img_sec_2.png"
     },
     {
       title: "3. Contexto Social: La Cultura Digital en China",
@@ -33,7 +33,7 @@ export default function Home() {
         "Diferente noción de la privacidad: Una tolerancia distinta a la recolección de datos masiva frente a los estándares de Occidente.",
         "La 'Data Advantage': Este océano de datos sociales es el combustible inigualable para entrenar algoritmos de IA predictivos."
       ],
-      image: "/images/img_sec_3.png"
+      image: "/china-presentacion/images/img_sec_3.png"
     },
     {
       title: "4. Soberanía Tecnológica: La Meta hacia 2030",
@@ -43,7 +43,7 @@ export default function Home() {
         "Respuesta al bloqueo: Inyecciones de capital masivas a gigantes nacionales como Huawei y la fundición estatal SMIC.",
         "Desarrollo de ecosistemas propios de código abierto y hardware especializado para romper la dependencia occidental."
       ],
-      image: "/images/img_sec_4.png"
+      image: "/china-presentacion/images/img_sec_4.png"
     },
     {
       title: "5. Entender la China Actual",
@@ -53,7 +53,7 @@ export default function Home() {
         "La IA no es neutra ni libre: Su desarrollo y aplicación están estrictamente condicionados por la CAC (Administración del Ciberespacio).",
         "Obligación legal: Todos los algoritmos y modelos fundacionales deben promover los 'Valores Centrales Socialistas'."
       ],
-      image: "/images/img_sec_5.png"
+      image: "/china-presentacion/images/img_sec_5.png"
     },
     {
       title: "6. Preguntas Tabú (KIMI Censurada)",
@@ -63,7 +63,7 @@ export default function Home() {
         "Respuesta de la plataforma: Negativa rotunda del modelo a generar respuestas o cortes abruptos en el texto.",
         "Activación del 'Kill Switch': Evidencia de los mecanismos de desconexión automatizados cuando el usuario roza temáticas subversivas."
       ],
-      image: "/images/img_sec_6.png"
+      image: "/china-presentacion/images/img_sec_6.png"
     },
     {
       title: "7. QWEN3 en Local (Sin Restricciones ni Censura de Red)",
@@ -73,7 +73,7 @@ export default function Home() {
         "Las mentiras de la IA: El modelo minimiza los hechos sistemáticamente (ej. afirmando que en Tiananmén hubo 'celebraciones festivas').",
         "Conclusión alarmante: Aunque no hay censura de red externa, el modelo está profundamente sesgado y alterado desde sus propios pesos internos de entrenamiento."
       ],
-      image: "/images/img_sec_7.jpg"
+      image: "/china-presentacion/images/img_sec_7.jpg"
     },
     {
       title: "8. Conclusiones: Entrenamiento y Censura en IA",
@@ -82,7 +82,7 @@ export default function Home() {
         "2. Alineamiento Forzoso (RLHF): Uso intenso del aprendizaje por refuerzo para penalizar severamente al modelo si se desvía de la narrativa oficial del Estado.",
         "3. Filtros de Salida en Tiempo Real: Capas de seguridad adicionales que bloquean y cortan la generación de texto en vivo si el contexto matemático de la respuesta infringe la ley."
       ],
-      image: "/images/img_sec_8.png"
+      image: "/china-presentacion/images/img_sec_8.png"
     },
     {
       title: "9. El Estado de Vigilancia",
@@ -92,7 +92,7 @@ export default function Home() {
         "Fusión de datos y Policía Predictiva: Cruce de la vigilancia física con el comportamiento digital (pagos, viajes, chats) para predecir 'anomalías'.",
         "El Sistema de Crédito Social: La herramienta definitiva que asigna puntuaciones ciudadanas, generando listas negras y una total autocensura preventiva."
       ],
-      image: "/images/img_sec_9.png"
+      image: "/china-presentacion/images/img_sec_9.png"
     },
     {
       title: "10. Repercusiones y Problemas de la Vigilancia",
@@ -102,7 +102,7 @@ export default function Home() {
         "Impacto psicológico: La sensación de estar constantemente monitoreado genera una cultura del miedo y una severa autocensura en la vida diaria.",
         "Uso asimétrico y discriminatorio: Despliegue desproporcionado de esta tecnología sobre minorías étnicas y disidentes políticos para mantener un control social asfixiante."
       ],
-      image: "/images/img_sec_10.jpg"
+      image: "/china-presentacion/images/img_sec_10.jpg"
     },
     {
       title: "11. Aspectos Positivos y Eficiencia Urbana",
@@ -112,7 +112,7 @@ export default function Home() {
         "Comodidad y agilidad ciudadana: Uso de pagos faciales y abordaje de trenes sin billete físico, agilizando enormemente el día a día.",
         "Prevención de fraudes: Mejora en la trazabilidad de productos, reducción drástica de la corrupción de bajo nivel y modernización del ecosistema judicial."
       ],
-      image: "/images/img_sec_11.png"
+      image: "/china-presentacion/images/img_sec_11.png"
     }
   ];
 
@@ -139,7 +139,7 @@ export default function Home() {
           playsInline 
           className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         >
-          <source src="/Video Project.mp4" type="video/mp4" />
+          <source src="/china-presentacion/Video Project.mp4" type="video/mp4" />
         </video>
         
         {/* Dark Overlay for text readability */}
